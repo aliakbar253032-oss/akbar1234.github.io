@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Мій сайт</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="menu">
+<a href="index.html">Головна</a>
+<a href="about.html">Про мене</a>
+<a href="hobbies.html">Хобі</a>
+<a href="gallery.html">Галерея</a>
+<a href="contact.html">Контакти</a>
+</div>
+
+<h1 id="top">Мій сайт</h1>
+
+<div class="block">
+<h2 id="about">Про сайт</h2>
+<p>Це <span class="highlight">мій сайт</span> на HTML і CSS.</p>
+<a href="#schedule">Перейти до розкладу</a>
+</div>
+
+<div class="block">
+<h2>Мій університет</h2>
+
+<iframe width="100%" height="315"
+src="https://www.youtube.com/embed/E6NWuLWMNzM"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</div>
+
+<div class="block">
+<h2 id="schedule">Розклад</h2>
+
+<table>
+<tr>
+<th>День</th>
+<th>Предмет</th>
+</tr>
+
+<tr>
+<td>Понеділок</td>
+<td>Математика</td>
+</tr>
+
+<tr>
+<td>Вівторок</td>
+<td>Програмування</td>
+</tr>
+</table>
+</div>
+
+<a href="#top" class="top">⬆ Вгору</a>
+
+<div class="block">
+<button onclick="showMessage()">Натисни мене</button>
+</div>
+
+<script>
+function showMessage() {
+    alert("Дякую за відвідування сайту 😎");
+}
+</script>
+<footer class="block">
+<p>© Гусейнов Акбар, 2026</p>
+<p>Телефон: +380960517972</p>
+<p>Telegram: @Akbonic002</p>
+</footer>
+
+</body>
+</html>
